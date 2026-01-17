@@ -43,9 +43,8 @@ waste-detection-app/
 ├── models/
 │   └── best.pt              # Trained YOLOv8 model
 ├── app/
-│   ├── streamlit_app.py     # Web interface
-│   ├── detect_realtime.py   # Real-time webcam detection
-│   └── utils.py             # Helper functions
+│   ├── app.py     # Web interface
+│   ├── webcam.py   # Real-time webcam detection
 ├── results/
 │   ├── results.png          # Training plots
 │   └── confusion_matrix.png # Confusion matrix
@@ -64,7 +63,7 @@ git clone https://github.com/yourusername/eco-guardian.git
 cd eco-guardian
 ```
 
-### 2. Create virtual environment
+### 2. Create a virtual environment
 
 ```bash
 python -m venv venv
@@ -101,7 +100,7 @@ python detect_realtime.py
 
 **Controls:**
 - Press `Q` to quit
-- Press `S` to save screenshot
+- Press `S` to save a screenshot
 
 ### Python API
 
@@ -205,6 +204,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Your Name - [arjunsreechakram@gmail.com](mailto:arjunsreechakram@gmail.com)
 
-Project Link: [https://github.com/yourusername/eco-guardian](https://github.com/yourusername/eco-guardian)
+Project Link: [https://github.com/WALKMAN303/waste-detection](https://github.com/WALKMAN303/waste-detection)
